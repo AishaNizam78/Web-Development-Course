@@ -1,0 +1,21 @@
+body{
+    background-color: cornsilk;
+}
+
+h2{
+    
+    color: darkslategray;
+    text-align: left;
+}
+button {
+    width: 5;
+    background-color: lightslategrey;
+    color: white;
+    padding: 7px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+}

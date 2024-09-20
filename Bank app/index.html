@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+      <script>
+        function check() {
+            var x = document.forms["transaction"]["fname"].value;
+            if (x <=100) {
+                alert("Transaction of 100 or less is not allowed ")
+                return false;
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <br> 
+    <img src="pngegg.png" height="60px" style="float: left ;"> 
+    <h1> Bank App</h1>
+<form >
+   
+    Name: <input type="text" id="fname" name="fname"> <br><br>
+   Purpose of debit: <input type="text" id="fname" name="fname"><br><br>
+Enter transaction amount: <input type="number" id="fname" name="fname"> <br><br>
+<button type="button">Credit </button><br><br>
+<button type="button" name="transaction" onsubmit="check()" >Debit </button><br><br>
+<p id="message"></p>
+</form>
+</body>  
+</html>
