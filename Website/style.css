@@ -28,3 +28,46 @@ body {
     height: 100vh;
    
 }
+h1{
+    font-family: Georgia, serif;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#section2 {
+    background-image: linear-gradient(50deg,
+            hsl(19deg 98% 79%) 0%,
+            hsl(18deg 71% 79%) 13%,
+            hsl(17deg 42% 79%) 32%,
+            hsl(60deg 20% 64%) 53%,
+            hsl(158deg 27% 56%) 74%,
+            hsl(164deg 35% 49%) 91%,
+            hsl(170deg 76% 37%) 100%);
+
+    padding-top: 200px;
+    height: 600px;
+}
+
+#section3 {
+    background-image: linear-gradient(125deg,
+            hsl(82deg 11% 61%) 0%,
+            hsl(96deg 12% 61%) 13%,
+            hsl(113deg 13% 61%) 25%,
+            hsl(131deg 16% 60%) 34%,
+            hsl(145deg 21% 59%) 43%,
+            hsl(155deg 25% 57%) 50%,
+            hsl(156deg 23% 53%) 57%,
+            hsl(152deg 20% 48%) 62%,
+            hsl(148deg 20% 44%) 67%,
+            hsl(144deg 20% 39%) 72%,
+            hsl(139deg 19% 35%) 76%,
+            hsl(135deg 19% 32%) 80%,
+            hsl(133deg 20% 31%) 83%,
+            hsl(131deg 21% 30%) 86%,
+            hsl(130deg 22% 29%) 90%,
+            hsl(128deg 23% 28%) 94%,
+            hsl(125deg 24% 27%) 100%);
+
+    padding-top: 200px;
+    height: 400px;
+}
