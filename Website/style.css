@@ -1,12 +1,30 @@
 
 a {
-  
-
-    text-decoration: none;
-    letter-spacing: 0.1em;
-    padding: 15px 20px;
-
+    box-shadow: inset 0 0 0 0 #8aeadb;
+    color: #8aeadb;
+    padding: 0 .1rem;
+    margin: 0 -.1rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
+
 a:hover {
-    color: rgb(83, 235, 176);
+    color: #066348;
+    box-shadow: inset 200px 0 0 0 #8aeadb;
+    ;
+}
+
+/* Presentational styles */
+a {
+    color: #8aeadb;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+   
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+   
 }
