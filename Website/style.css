@@ -1,0 +1,12 @@
+
+a {
+  
+
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    padding: 15px 20px;
+
+}
+a:hover {
+    color: rgb(83, 235, 176);
+}
