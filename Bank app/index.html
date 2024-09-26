@@ -6,13 +6,18 @@
     <title>Document</title>
    <link rel="stylesheet" href="style.css">
       <script>
-        function check() {
+        function check1() {
             var x = document.forms["transaction"]["fname"].value;
             if (x <=100) {
                 alert("Transaction of 100 or less is not allowed ")
                 return false;
             }
+            var account_balance = parseInt(current_balance_el.innerText) - parseInt(entered_amount_el);
+            current_balance_el.innerText = parseInt(account_balance);
         }
+        function check2() {
+        var account_balance = parseInt(current_balance_el.innerText) + parseInt(entered_amount_el);
+        current_balance_el.innerText = parseInt(account_balance);
     </script>
 
 </head>
@@ -25,8 +30,9 @@
     Name: <input type="text" id="fname" name="fname"> <br><br>
    Purpose of debit: <input type="text" id="fname" name="fname"><br><br>
 Enter transaction amount: <input type="number" id="fname" name="fname"> <br><br>
-<button type="button">Credit </button><br><br>
-<button type="button" name="transaction" onsubmit="check()" >Debit </button><br><br>
+
+<button type="button" name="transaction" onsubmit="check1()" >Debit </button><br><br>
+<button type="button" name="transaction" onsubmit="check2()">Credit </button><br><br>
 <p id="message"></p>
 </form>
 </body>  
