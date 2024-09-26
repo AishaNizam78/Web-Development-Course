@@ -94,19 +94,42 @@ body {
     outline: 0;
 
 }
-#divide{
-    background-color: rgb(9, 214, 214);
-}
-#multiply {
-    background-color: rgb(255, 191, 0);
-}
-#sub {
-    background-color: rgb(249, 128, 172);
-}
-#add {
-    background-color: rgb(144, 181, 242);
-}
-#eq{
-    background-color: rgb(192, 119, 218);
+button:nth-child(4) {
+
+    font-size: 20px;
+
+    background-color: #20b2aa;
+
 }
 
+button:nth-child(8) {
+
+    font-size: 20px;
+
+    background-color: #ffa500;
+
+}
+
+button:nth-child(12) {
+
+    font-size: 20px;
+
+    background-color: #f08080;
+
+}
+
+button:nth-child(16) {
+
+    font-size: 20px;
+
+    background-color: #7d93e0;
+
+}
+
+button:nth-child(20) {
+
+    font-size: 20px;
+
+    background-color: #9477af;
+
+}
